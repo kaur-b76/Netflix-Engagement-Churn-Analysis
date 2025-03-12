@@ -42,7 +42,7 @@ The combined analysis provides a more comprehensive understanding of customer en
 Device usage patterns, subscription plan characteristics, and payment history are identified as potential factors influencing churn and user behavior.
 Interactive slicers enhance the user's ability to explore the data, filter by specific dimensions, and uncover more granular insights.
 
-V Overview of the Dashboard Components
+V. Overview of the Dashboard Components
 The dashboard consists of multiple visual elements, each contributing to the overall analysis of churn behavior:
 
 - Key Performance Indicators (KPIs)
@@ -70,7 +70,7 @@ Smart TV: 3.1K hours (25.23%)
 Tablet: 2.97K hours (24.21%)
 The usage is fairly evenly distributed, but trends in device preference may impact churn rates.
 
-VI How the Dashboard Works
+VI. How the Dashboard Works
 
 - Interactivity
 The Power BI dashboard allows interactive filtering, where users can select:
@@ -92,7 +92,7 @@ Device Usage Trends
 Users watching on mobile and smart TVs have slightly higher watch times.
 If a specific device group has a higher churn rate, Netflix can target engagement efforts accordingly.
 
-VII Findings & Conclusions
+VII. Findings & Conclusions
 
 - Factors Influencing Churn
 Low Customer Satisfaction (6.93)
@@ -112,7 +112,7 @@ Device Preference & Engagement
 Mobile & Smart TV users have the highest engagement.
 If any device type correlates with higher churn, Netflix may need to optimize the viewing experience for that platform.
 
-VIII Recommendations to Reduce Churn
+VIII. Recommendations to Reduce Churn
 
 - Personalized Content Recommendations:Improve algorithm-driven recommendations to keep users engaged.
 - Payment Flexibility: Introduce grace periods or loyalty discounts for late payers.
