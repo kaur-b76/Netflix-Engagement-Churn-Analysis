@@ -75,7 +75,8 @@ Mobile & Smart TV users have the highest engagement.
 If any device type correlates with higher churn, Netflix may need to optimize the viewing experience for that platform.
 
 4. Recommendations to Reduce Churn
-Personalized Content Recommendations: Improve algorithm-driven recommendations to keep users engaged.
+Personalized Content Recommendations:
+Improve algorithm-driven recommendations to keep users engaged.
 Payment Flexibility: Introduce grace periods or loyalty discounts for late payers.
 Device Optimization: Ensure smooth streaming across all device types.
 Improve Customer Experience: Enhance UI/UX, customer support, and content library.
