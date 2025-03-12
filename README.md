@@ -11,15 +11,19 @@ A. Key Performance Indicators (KPIs)
 Engagement Rate: 6.95 – Represents the level of customer engagement with Netflix.
 Total Customers Analyzed: 3,500 – The dataset includes 3,500 customer records.
 Customer Satisfaction Score: 6.93 – The average satisfaction score among Netflix users.
+
 B. Age Distribution Filter
 The age filter allows users to analyze churn and engagement trends across different age groups.
 This provides insights into which age groups are more likely to churn and how engagement differs by age.
+
 C. Payment History (On-Time vs. Delayed)
 77.97% (2.73K) of users pay on time, while 22.03% (0.77K) have delayed payments.
 Delayed payments may correlate with a higher churn rate, as customers who struggle with timely payments may be less engaged.
+
 D. Churn Rate Analysis
 11.34% of customers have churned (0.4K), while 88.66% remain active (3.1K).
 Understanding what causes customers to churn is essential for improving engagement and retention strategies.
+
 E. Daily Watch Time by Device Used
 Users watch Netflix on four primary devices:
 Laptop: 3.08K hours (25.07%)
@@ -29,11 +33,13 @@ Tablet: 2.97K hours (24.21%)
 The usage is fairly evenly distributed, but trends in device preference may impact churn rates.
 
 2. How the Dashboard Works
+
 A. Interactivity
 The Power BI dashboard allows interactive filtering, where users can select:
 Age groups to see how churn varies by demographics.
 Payment history categories to explore its effect on retention.
 Device type filters to understand engagement behavior across different platforms.
+
 B. Data Relationships & Analysis
 Engagement & Churn Relationship
 
@@ -49,6 +55,7 @@ Users watching on mobile and smart TVs have slightly higher watch times.
 If a specific device group has a higher churn rate, Netflix can target engagement efforts accordingly.
 
 3. Findings & Conclusions
+
 A. Factors Influencing Churn
 Low Customer Satisfaction (6.93)
 
