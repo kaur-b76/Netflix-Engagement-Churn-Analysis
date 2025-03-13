@@ -125,6 +125,60 @@ VIII. Recommendations to Reduce Churn
 - Device Optimization: Ensure smooth streaming across all device types.
 - Improve Customer Experience: Enhance UI/UX, customer support, and content library.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Furthermost, I have also done analysis in Jupyter Notebook using Python and below is the detailed explanation of the Exploratory Data Analysis (EDA) and model analysis.
+
+The notebook contains 11 code cells related to Exploratory Data Analysis (EDA) and 7 code cells related to model analysis. 
+📊 Exploratory Data Analysis (EDA) Summary
+The dataset is analyzed to understand user engagement patterns and churn behavior on Netflix. Here’s what was done:
+
+Dataset Overview:
+
+Loaded the dataset and displayed the first and last few rows using df.head() and df.tail().
+Used df.info() to check data types and missing values.
+Used df.describe() to compute summary statistics.
+
+Handling Missing Data:
+
+Checked for missing values using df.isnull().sum().
+Possible strategies like imputation or dropping rows were considered.
+
+Feature Exploration:
+
+Analyzed the distribution of variables using histograms (df.hist()).
+Checked correlations between numerical features using df.corr().
+Boxplots and pairplots were used to identify outliers and relationships between variables.
+
+Churn Behavior Analysis:
+
+Examined how engagement metrics (e.g., watch time, frequency of usage) relate to churn.
+Used value_counts() to analyze categorical variables like subscription types and user demographics.
+
+Model Analysis Summary
+The dataset was used to predict user churn with different machine learning models. Here’s what was done:
+
+Data Preparation:
+
+The dataset was split into training and testing sets using train_test_split().
+Categorical variables were encoded if necessary.
+
+Model Selection:
+
+Used models like Logistic Regression and Random Forest Classifier.
+Trained the models using fit() and made predictions using predict().
+
+Evaluation Metrics:
+
+Measured accuracy using accuracy_score().
+Evaluated performance using confusion matrices (confusion_matrix()).
+Used ROC curves (roc_curve()) to compare model performance.
+
+Impact of Variables on Churn:
+
+Found key engagement factors affecting churn, such as:
+Watch time: Lower engagement correlates with higher churn.
+Subscription plan: Free-tier users are more likely to churn.
+Login frequency: Infrequent users have a higher churn probability.
 
 ## License & Usage Restrictions  
 This repository is provided for viewing only. Downloading, modifying, or using this work for any purpose is strictly prohibited. See the [LICENSE](./LICENSE) file for details.
