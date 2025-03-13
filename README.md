@@ -126,10 +126,13 @@ VIII. Recommendations to Reduce Churn
 - Improve Customer Experience: Enhance UI/UX, customer support, and content library.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Furthermost, I have also done analysis in Jupyter Notebook using Python and below is the detailed explanation of the Exploratory Data Analysis (EDA) and model analysis.
 
 The notebook contains 11 code cells related to Exploratory Data Analysis (EDA) and 7 code cells related to model analysis. 
-📊 Exploratory Data Analysis (EDA) Summary
+
+#📊 Exploratory Data Analysis (EDA)
+Summary
 The dataset is analyzed to understand user engagement patterns and churn behavior on Netflix. Here’s what was done:
 
 Dataset Overview:
