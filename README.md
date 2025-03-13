@@ -120,4 +120,9 @@ VIII. Recommendations to Reduce Churn
 - Improve Customer Experience: Enhance UI/UX, customer support, and content library.
 
 
+## License & Usage Restrictions  
+This repository is provided for viewing only. Downloading, modifying, or using this work for any purpose is strictly prohibited. See the [LICENSE](./LICENSE) file for details.
+
+
+
 
