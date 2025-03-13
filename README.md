@@ -134,55 +134,55 @@ The notebook contains 11 code cells related to Exploratory Data Analysis (EDA) a
 # Exploratory Data Analysis (EDA)
 
 Summary
+
 The dataset is analyzed to understand user engagement patterns and churn behavior on Netflix. Here’s what was done:
 
 **Dataset Overview:**
 
-Loaded the dataset and displayed the first and last few rows using df.head() and df.tail().
-Used df.info() to check data types and missing values.
-Used df.describe() to compute summary statistics.
+- Loaded the dataset and displayed the first and last few rows using df.head() and df.tail().
+- Used df.info() to check data types and missing values.
+- Used df.describe() to compute summary statistics.
 
-Handling Missing Data:
+**Handling Missing Data:**
+- Checked for missing values using df.isnull().sum().
+- Possible strategies like imputation or dropping rows were considered.
 
-Checked for missing values using df.isnull().sum().
-Possible strategies like imputation or dropping rows were considered.
+**Feature Exploration:**
 
-Feature Exploration:
+- Analyzed the distribution of variables using histograms (df.hist()).
+- Checked correlations between numerical features using df.corr().
+- Boxplots and pairplots were used to identify outliers and relationships between variables.
 
-Analyzed the distribution of variables using histograms (df.hist()).
-Checked correlations between numerical features using df.corr().
-Boxplots and pairplots were used to identify outliers and relationships between variables.
+**Churn Behavior Analysis:**
 
-Churn Behavior Analysis:
+- Examined how engagement metrics (e.g., watch time, frequency of usage) relate to churn.
+- Used value_counts() to analyze categorical variables like subscription types and user demographics.
 
-Examined how engagement metrics (e.g., watch time, frequency of usage) relate to churn.
-Used value_counts() to analyze categorical variables like subscription types and user demographics.
-
-Model Analysis Summary
+**Model Analysis Summary**
 The dataset was used to predict user churn with different machine learning models. Here’s what was done:
 
-Data Preparation:
+**Data Preparation:**
 
-The dataset was split into training and testing sets using train_test_split().
-Categorical variables were encoded if necessary.
+- The dataset was split into training and testing sets using train_test_split().
+- Categorical variables were encoded if necessary.
 
-Model Selection:
+**Model Selection:**
 
-Used models like Logistic Regression and Random Forest Classifier.
-Trained the models using fit() and made predictions using predict().
+- Used models like Logistic Regression and Random Forest Classifier.
+- Trained the models using fit() and made predictions using predict().
 
-Evaluation Metrics:
+**Evaluation Metrics:**
 
-Measured accuracy using accuracy_score().
-Evaluated performance using confusion matrices (confusion_matrix()).
-Used ROC curves (roc_curve()) to compare model performance.
+- Measured accuracy using accuracy_score().
+- Evaluated performance using confusion matrices (confusion_matrix()).
+- Used ROC curves (roc_curve()) to compare model performance.
 
-Impact of Variables on Churn:
+**Impact of Variables on Churn:**
 
 Found key engagement factors affecting churn, such as:
-Watch time: Lower engagement correlates with higher churn.
-Subscription plan: Free-tier users are more likely to churn.
-Login frequency: Infrequent users have a higher churn probability.
+- Watch time: Lower engagement correlates with higher churn.
+- Subscription plan: Free-tier users are more likely to churn.
+- Login frequency: Infrequent users have a higher churn probability.
 
 ## License & Usage Restrictions  
 This repository is provided for viewing only. Downloading, modifying, or using this work for any purpose is strictly prohibited. See the [LICENSE](./LICENSE) file for details.
