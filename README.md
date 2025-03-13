@@ -8,6 +8,12 @@ The Netflix Engagement Churn Analysis project is designed to analyze customer en
 
 ![Power BI Dashboard](https://github.com/kaur-b76/Netflix-Engagement-Churn-Analysis/Screenshot 2025-03-12 at 23.28.47.png)
 
+
+![Screenshot 1](https://raw.githubusercontent.com/kaur-b76/Netflix-Engagement-Churn-Analysis/main/Screenshot%202025-03-12%20at%2023.28.23.png)
+
+![Screenshot 2](https://raw.githubusercontent.com/kaur-b76/Netflix-Engagement-Churn-Analysis/main/Screenshot%202025-03-12%20at%2023.28.47.png)
+
+
 I. Overall Metrics and Distributions:
 
 - Customer Base: The dataset includes 3500 customer IDs, indicating a sizable user base.
