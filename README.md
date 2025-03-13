@@ -131,11 +131,12 @@ Furthermost, I have also done analysis in Jupyter Notebook using Python and belo
 
 The notebook contains 11 code cells related to Exploratory Data Analysis (EDA) and 7 code cells related to model analysis. 
 
-#📊 Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
+
 Summary
 The dataset is analyzed to understand user engagement patterns and churn behavior on Netflix. Here’s what was done:
 
-Dataset Overview:
+**Dataset Overview:**
 
 Loaded the dataset and displayed the first and last few rows using df.head() and df.tail().
 Used df.info() to check data types and missing values.
