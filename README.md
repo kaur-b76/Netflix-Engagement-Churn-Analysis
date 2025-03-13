@@ -4,6 +4,9 @@ This project analyzes Netflix user engagement and churn behavior using Power BI.
 Netflix Engagement Churn Analysis – Power BI Dashboard Insights
 The Netflix Engagement Churn Analysis project is designed to analyze customer engagement and churn behavior using a dataset (sourced from Kaggle). This Power BI dashboard provides a detailed breakdown of various metrics such as engagement rate, customer satisfaction, churn rate, payment history, and daily watch time across different devices.
 
+![Power BI Dashboard](https://github.com/kaur-b76/Netflix-Engagement-Churn-Analysis/Screenshot 2025-03-12 at 23.28.23.png)
+
+![Power BI Dashboard](https://github.com/kaur-b76/Netflix-Engagement-Churn-Analysis/Screenshot 2025-03-12 at 23.28.47.png)
 
 I. Overall Metrics and Distributions:
 
