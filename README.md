@@ -159,6 +159,7 @@ The dataset is analyzed to understand user engagement patterns and churn behavio
 - Used value_counts() to analyze categorical variables like subscription types and user demographics.
 
 **Model Analysis Summary**
+
 The dataset was used to predict user churn with different machine learning models. Here’s what was done:
 
 **Data Preparation:**
